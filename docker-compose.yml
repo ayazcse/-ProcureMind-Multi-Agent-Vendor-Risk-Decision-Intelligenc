@@ -1,0 +1,38 @@
+version: "3.9"
+
+# Default profile: SQLite-backed backend + frontend, zero external services.
+# Add a Postgres service (see DEPLOYMENT_GUIDE.md) if you want a real
+# relational server instead of the bundled SQLite file.
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: procuremind-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_data:/app/data
+    env_file:
+      - ./backend/.env   # copy backend/.env.example to backend/.env before running
+    environment:
+      - DATABASE_URL=sqlite:///./data/procuremind.db
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: procuremind-frontend
+    ports:
+      - "5173:80"
+    # No VITE_API_URL needed here: the frontend calls the relative "/api"
+    # path by default, and Nginx (see frontend/nginx.conf) proxies that to
+    # the "backend" service by its Docker Compose service name.
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_data:

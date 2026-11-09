@@ -1,0 +1,22 @@
+{
+  "title": "Office IT Equipment & Managed Support — FY27 Rollout",
+  "description": "Procurement of laptops, endpoint management, and managed IT support for a 500-employee office expansion. (SYNTHETIC DEMO DATA)",
+  "scoring_weights": {
+    "requirement_match": 0.30,
+    "pricing": 0.15,
+    "delivery": 0.15,
+    "compliance": 0.20,
+    "risk": 0.15,
+    "technical": 0.05
+  },
+  "requirements": [
+    {"text": "Vendor must provide 24/7 customer support", "category": "technical", "is_mandatory": true, "weight": 1.0},
+    {"text": "Vendor must offer cloud hosting with API integration", "category": "technical", "is_mandatory": true, "weight": 1.0},
+    {"text": "Vendor must provide disaster recovery capability", "category": "technical", "is_mandatory": false, "weight": 0.8},
+    {"text": "Vendor must be ISO 9001 certified", "category": "compliance", "is_mandatory": true, "weight": 1.0},
+    {"text": "Vendor must demonstrate GDPR data protection compliance", "category": "compliance", "is_mandatory": true, "weight": 1.0},
+    {"text": "Vendor must disclose a delivery timeline under 30 business days", "category": "delivery", "is_mandatory": true, "weight": 0.9},
+    {"text": "Vendor must disclose total contract pricing", "category": "pricing", "is_mandatory": true, "weight": 0.7},
+    {"text": "Vendor must offer hardware warranty with on-site replacement", "category": "technical", "is_mandatory": false, "weight": 0.6}
+  ]
+}

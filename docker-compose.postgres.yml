@@ -1,0 +1,30 @@
+# Optional PostgreSQL override.
+# Usage: docker compose -f docker-compose.yml -f docker-compose.postgres.yml up --build
+#
+# This adds a real Postgres server and points the backend at it instead of
+# the default bundled SQLite file.
+
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: procuremind-postgres
+    environment:
+      POSTGRES_USER: procuremind
+      POSTGRES_PASSWORD: procuremind
+      POSTGRES_DB: procuremind
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  backend:
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://procuremind:procuremind@db:5432/procuremind
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

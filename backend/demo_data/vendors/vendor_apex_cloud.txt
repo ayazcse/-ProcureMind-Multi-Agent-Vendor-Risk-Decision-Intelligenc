@@ -1,0 +1,47 @@
+APEX CLOUD SOLUTIONS — Vendor Proposal
+(SYNTHETIC DEMO DATA — for ProcureMind demonstration purposes only)
+
+Company: Apex Cloud Solutions Pvt Ltd
+Contact: procurement@apexcloud-demo.com
+Phone: +91-98xxxxxxxx
+
+PROPOSAL SUMMARY
+We propose to deliver a cloud-hosted IT asset management platform for your
+organization's 500-employee office rollout, including laptops, endpoint
+management software, and ongoing support.
+
+PRICING
+Total contract value: USD 128,500 for a 12-month term, inclusive of hardware,
+software licensing, and support. Payment terms: 30% upfront, 70% on delivery.
+
+DELIVERY
+Standard delivery timeline: 21 business days from purchase order confirmation
+for full hardware rollout. Software provisioning completes within 5 business
+days.
+
+CAPABILITIES
+- 24/7 support via phone, email, and dedicated Slack channel
+- Cloud hosting with 99.9% uptime SLA
+- API integration with existing HR and asset management systems
+- Disaster recovery with documented RTO of 4 hours
+- Data encryption at rest and in transit (AES-256)
+- Dedicated account manager assigned post-contract
+- On-site support available within 24 hours for critical incidents
+
+COMPLIANCE AND CERTIFICATIONS
+Apex Cloud Solutions is ISO 9001:2015 certified, certificate number
+ISO9001-AC-2024-3317, issued by Bureau Veritas, valid until March 2027.
+We are also ISO 27001 certified for information security management,
+certificate number ISO27001-AC-2023-9901, issued by BSI, valid until
+November 2026.
+We process data in accordance with GDPR; our Data Processing Addendum is
+available on request and includes a named Data Protection Officer,
+registration number DPO-AC-4471.
+
+WARRANTY
+All hardware is covered by a 3-year manufacturer warranty with on-site
+replacement for critical failures within 48 hours.
+
+REFERENCES
+Available upon request from three enterprise clients in the BFSI and
+manufacturing sectors.

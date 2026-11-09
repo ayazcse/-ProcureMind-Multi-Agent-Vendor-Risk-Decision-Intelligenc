@@ -1,0 +1,44 @@
+SUMMIT TECHNOLOGIES — Vendor Proposal
+(SYNTHETIC DEMO DATA — for ProcureMind demonstration purposes only)
+
+Company: Summit Technologies Pvt Ltd
+Contact: enterprise@summittech-demo.com
+Phone: +91-99xxxxxxxx
+
+PROPOSAL SUMMARY
+Summit Technologies proposes a premium managed IT services package with
+end-to-end hardware procurement, deployment, and lifecycle management.
+
+PRICING
+Total contract value: USD 154,000 for a 12-month term, including premium
+support tier and extended warranty coverage.
+
+DELIVERY
+Delivery timeline: 10 business days for standard orders; expedited 5-day
+delivery available for an additional fee.
+
+CAPABILITIES
+- 24/7 support with guaranteed 1-hour response SLA for critical issues
+- On-premise and cloud hosting options, hybrid deployment supported
+- Full API integration suite with pre-built connectors for major HR/ERP systems
+- Disaster recovery with documented RTO of 2 hours and RPO of 15 minutes
+- Data encryption at rest and in transit
+- Dedicated account manager and quarterly business reviews
+- On-site support within 12 hours nationwide
+- Multi-currency invoicing supported for international subsidiaries
+
+COMPLIANCE AND CERTIFICATIONS
+Summit Technologies holds ISO 9001:2015 certification, certificate number
+ISO9001-ST-2024-7712, issued by SGS, valid until August 2027.
+SOC 2 Type II audit completed in 2025, report available under NDA.
+We maintain a documented GDPR compliance program with annual third-party
+audits; audit certificate number GDPR-AUD-ST-2025-114, issued by an
+accredited EU auditor, valid until June 2026.
+
+WARRANTY
+All hardware covered by 3-year extended warranty with next-business-day
+on-site replacement. Software license includes lifetime critical patching.
+
+REFERENCES
+Three enterprise references available, including two Fortune 500 regional
+subsidiaries.
